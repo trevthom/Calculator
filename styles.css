@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: offwhite;
+	color: white;
+	font-family: sans-serif;
+}
+
+
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 325px;
+	height: 500px;
+	margin: 50px auto;
+	font-size: 30px;
+}
+
+#result {
+	height: 120px;
+	background-color: black;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	font-size: 45px;
+	padding-right: 15px;
+	font-weight: 100;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+}
+
+.button {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:  1px solid gray;
+}
+
+#rowFive > div:first-of-type {
+	width:  50%;
+	padding-right: 80px;
+}
+
+.number, #decimal {
+	background-color: darkgray;
+}
+
+.operator {
+	background-color: orange;
+}
+
+#rowOne > div:not(:last-of-type) {
+	background-color: dimgray;
+}
+
+.button:active {
+	opacity: 50%;
+}
